@@ -2,6 +2,6 @@
 # CSD 340 Web Development with HTML and CSS
 
 ##  Contributors 
-. Caleb Cano
-. Vianelis Martinez
+- Caleb Cano
+- Vianelis Martinez
 
