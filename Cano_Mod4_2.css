@@ -1,0 +1,61 @@
+/* Name: Caleb Cano | Assignment: 4.2 */
+
+#container {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(79, 54, 116, 1);
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10%;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(35, 70, 100, 1);
+}
+
+figure {
+    text-align: center;
+    margin: 16px 0;
+}
+
+img {
+    max-width: 100%;
+    height: 320px;
+    object-fit: contain;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(100, 55, 25, 1);
+    margin-top: 10px;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#bottom a {
+    float: right;
+}
+
+a {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
