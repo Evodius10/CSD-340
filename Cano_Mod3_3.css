@@ -1,0 +1,64 @@
+/* Name: Caleb Cano | Assignment: 3.3 */
+
+h1 {
+    text-align: center;
+}
+
+#books,
+#lessons {
+    width: 45%;
+}
+
+#books {
+    float: left;
+}
+
+#lessons {
+    float: right;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#books h3,
+#books ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#lessons h3,
+#lessons ol {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+#lessons ol {
+    list-style-type: upper-roman;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#bottom a {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
